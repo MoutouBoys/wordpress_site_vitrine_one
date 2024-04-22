@@ -1,0 +1,50 @@
+/*
+Theme Name: Accron
+Theme URI: https://www.nayrathemes.com/accron-free
+Author: Nayra Themes
+Author URI: https://www.nayrathemes.com/
+Description: Unveil digital excellence with Accron WordPress Theme, a Bootstrap-supported marvel ensuring a perfect LightSpeed score. Experience blazing fast speeds tailored for all business websites, sculpting an online presence that's as efficient as it is elegant. Accron: Where performance meets sophistication, setting a new benchmark for web brilliance. View the demo of Accron Pro https://www.nayrathemes.com/demo/pro/?theme=accron
+Version: 1.2.9
+Tested up to: 6.5.2
+Requires PHP: 5.6
+Requires at Least: 4.7
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: accron
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, portfolio, editor-style, grid-layout
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+.widget .wp-block-group .wp-block-preformatted a {
+	color: inherit;
+}
+
+.wp-block-woocommerce-single-product .wp-block-post-title a {
+    text-decoration: none;
+}
+
+.wc-block-grid__products .wc-block-components-product-sale-badge.wc-block-grid__product-onsale {
+    letter-spacing: 0.2px;
+    border: none;
+}
+
+.footer-sidebar .widget .wp-block-group .wp-block-image .wp-element-caption a {
+    color:inherit;
+}
+
+.sidebar .widget .wp-block-group .is-nowrap p {
+	padding: 0;
+}
+
+.sidebar .widget .wp-block-group .wp-block-latest-comments__comment-meta {
+	font-weight: 600;
+	line-height: 1.5;
+}
+
+.wc-block-components-product-title a.wc-block-components-product-name:hover,
+.wc-block-components-product-title a.wc-block-components-product-name:focus {
+	color: inherit;
+}
